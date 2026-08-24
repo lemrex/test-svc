@@ -11,8 +11,9 @@ jobs:
       service_name: test-orders
       language: node
     secrets:
-      SWR_USERNAME: ${{ secrets.USERNAME }}
-      SWR_PASSWORD: ${{ secrets.PASSWORD }}
+      SWR_USERNAME: ${{ secrets.SWR_USERNAME }}
+      SWR_PASSWORD: ${{ secrets.SWR_PASSWORD }}
+
 
 
       
