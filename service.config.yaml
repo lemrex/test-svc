@@ -1,5 +1,5 @@
 # The only "platform" file a service team edits directly.
 service_name: svc-orders
 language: node
-port: 8080
+port: 3000
 team: payments
