@@ -6,7 +6,7 @@ on:
 
 jobs:
   build:
-    uses: lemrex/platform/.github/workflows/reusable-build.yml@v1.0.0
+    uses: lemrex/platform/.github/workflows/reusable-build.yml@main
     with:
       service_name: test-orders
       language: node
