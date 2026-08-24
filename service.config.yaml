@@ -2,4 +2,4 @@
 service_name: svc-orders
 language: node
 port: 3000
-team: paymentss
+team: payments
