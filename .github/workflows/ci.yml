@@ -1,0 +1,18 @@
+name: ci
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  build:
+    uses: your-org/platform-templates/.github/workflows/reusable-build.yml@v1.0.0
+    with:
+      service_name: svc-orders
+      language: go
+    secrets:
+      SWR_USERNAME: ${{ secrets.SWR_USERNAME }}
+      SWR_PASSWORD: ${{ secrets.SWR_PASSWORD }}
+
+
+      

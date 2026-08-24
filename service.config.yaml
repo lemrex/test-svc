@@ -1,0 +1,5 @@
+# The only "platform" file a service team edits directly.
+service_name: svc-orders
+language: go
+port: 8080
+team: payments
